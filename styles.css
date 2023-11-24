@@ -1,0 +1,208 @@
+
+        body{
+          background: #b6fffff6;
+          /*text-align: center;*/
+          
+        }
+        p {
+  font-size: 24px;
+  background: linear-gradient(90deg, black, #9b8c06, black, #9b8c06, black);background-size: 200% 200%;
+  animation: colorShift 5s infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  
+}
+@keyframes colorShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+#uprav {
+color: #7a4e02;
+}
+
+div {
+ position: absolute;
+/* transform: scale(1.0);
+  transform-origin: 0 0;
+   margin: 0 auto;*/
+  top: 40%;
+  left: 35%;
+ transform: translate(-50%, -50%);
+}
+.tetris {
+  font-family: 'Aclonica';
+  font-size: 28px;
+  color: #003131;
+}
+
+.by {
+  font-size: 12px;
+}
+
+.img-circle {
+ /* position: absolute;
+  top: 5px;
+  left: 305px;*/
+  height: 50px;
+  width: 50px;
+  border: 1px solid teal;
+  border-radius: 50%;
+}
+
+.maincanvas {
+  /*position:absolute; */
+ /* top:56px;
+  left:8px;*/
+  display: block;
+  border: 2px solid teal;
+}
+
+.subcanvas {
+position: absolute;
+  top: 210px;
+  left: 255px;
+  display: block;
+  border: 2px solid teal;
+}
+
+.labelscore {
+  position: absolute;
+  top: 60px;
+  left: 255px;
+  padding: 0px;
+  border: none;
+  text-align: left;
+  font-weight: bold;
+}
+
+.score {
+  position: absolute;
+  top: 80px;
+  left: 255px;
+  padding: 0px;
+  width: 100px;
+  height: 45px;
+  border: none;
+  background: #eee;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 28px;
+  color: teal;
+}
+
+.labellevel {
+  position: absolute;
+  top: 125px;
+  left: 255px;
+  padding: 0px;
+  border: none;
+  text-align: left;
+  font-weight: bold;
+}
+
+.level {
+  position: absolute;
+  top: 145px;
+  left: 255px;
+  padding: 0px;
+  width: 100px;
+  height: 45px;
+  border: none;
+  background: #eee;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 28px;
+  color: teal;
+}
+
+.next {
+  position: absolute;
+  top: 190px;
+  left: 255px;
+  padding: 0px;
+  border: none;
+  text-align: left;
+}
+
+.left {
+  position: absolute;
+  top: 320px;
+  left: 255px;
+  padding: 0px;
+  width: 45px;
+  height: 40px;
+  border: none;
+  background: teal;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.right {
+  position: absolute;
+  top: 320px;
+  left: 310px;
+  padding: 0px;
+  width: 45px;
+  height: 40px;
+  border: none;
+  background: teal;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.rotate {
+  position: absolute;
+  top: 370px;
+  left: 310px;
+  padding: 0px;
+  width: 45px;
+  height: 40px;
+  border: none;
+  background: teal;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.down {
+  position: absolute;
+  top: 420px;
+  left: 255px;
+  padding: 0px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background: teal;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.rotatealt {
+  position: absolute;
+  top: 370px;
+  left: 255px;
+  padding: 0px;
+  width: 45px;
+  height: 40px;
+  border: none;
+  background: teal;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+label:active {
+  background-color: #eee;
+}
